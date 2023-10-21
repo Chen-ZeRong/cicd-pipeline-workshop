@@ -3,4 +3,4 @@ nginx:
 redis:
   image: redis:latest
 api:
-  image: 
+  image: registry.srcmesh.dev/workshop/gogo:0.0.1
