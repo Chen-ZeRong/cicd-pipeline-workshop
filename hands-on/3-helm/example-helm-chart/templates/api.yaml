@@ -22,8 +22,8 @@ spec:
           value: "6379"
         ports:
         - containerPort: 5000
-    imagePullSecrets:
-    - name: ivan
+      imagePullSecrets:
+      - name: ivan
 
 ---
 apiVersion: v1
