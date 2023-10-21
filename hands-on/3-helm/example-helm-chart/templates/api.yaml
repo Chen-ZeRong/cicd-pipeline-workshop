@@ -23,7 +23,10 @@ spec:
         ports:
         - containerPort: 5000
         readinessProbe:
-          tcpSocket: 5000
+          tcpSocket: 
+            port: 5000
+          initialDelaySeconds: 15
+          periodSeconds: 20
       imagePullSecrets:
       - name: ivan
 
