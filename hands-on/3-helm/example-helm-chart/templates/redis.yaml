@@ -17,10 +17,7 @@ spec:
         image: {{ .Values.redis.image }}
         ports:
         - containerPort: 6379
-        livenessProbe:
-          exec:
-            command:
-            - redis-cli set "KEY" "VALUE"
+
 ---
 apiVersion: v1
 kind: Service
