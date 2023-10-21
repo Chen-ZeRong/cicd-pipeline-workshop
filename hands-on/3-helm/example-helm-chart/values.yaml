@@ -2,3 +2,5 @@ nginx:
   image: nginx:latest
 redis:
   image: redis:latest
+api:
+  image: 
