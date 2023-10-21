@@ -22,6 +22,8 @@ spec:
           value: "6379"
         ports:
         - containerPort: 5000
+        readinessProbe:
+          tcpSocket: 5000
       imagePullSecrets:
       - name: ivan
 
